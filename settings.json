@@ -1,0 +1,103 @@
+{
+  /** ------------ Workbench Settings ------------ **/
+  "workbench.colorCustomizations": {
+    "inlineparameters.annotationBackground": "#282A3600",
+    "inlineparameters.annotationForeground": "#7b82af",
+    "scrollbar.shadow": "#24292e00"
+  },
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.editorLargeFileConfirmation": 10024,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.showTabs": "single",
+  "workbench.tree.indent": 16,
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.editor.empty.hint": "hidden",
+
+  /** ------------ Breadcrumbs Configurations ------------ **/
+  "breadcrumbs.enabled": false,
+  "breadcrumbs.symbolPath": "off",
+  "breadcrumbs.filePath": "on",
+
+  /** ------------ Editor Settings ------------ **/
+  "editor.fontFamily": "'Fira Code Retina', 'Hack Nerd Font', Monospace",
+  "editor.fontSize": 14,
+  "editor.fontWeight": 450,
+  "editor.lineHeight": 26,
+  "editor.lineNumbers": "on",
+  "editor.folding": true,
+  "editor.glyphMargin": true,
+  "editor.guides.indentation": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.cursorStyle": "line",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.stickyScroll.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  /** ------------ Terminal Configurations ------------ **/
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontFamily": "'MesloLGS NF', 'Hack Nerd Font', Monospace",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.enableMultiLinePasteWarning": "always",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "": {
+      "source": "Git Bash"
+    }
+  },
+  /** ------------ Orther Settings ------------ **/
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "css": "css",
+    "postcss": "css"
+  },
+  "emmet.triggerExpansionOnTab": true,
+
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+
+  "tailwindCSS.experimental.classRegex": [
+    "[a-zA-Z]*class[a-zA-Z]*='([^']+)'",
+    "[a-zA-Z]*Class[a-zA-Z]*='([^']+)'"
+  ],
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "git.autofetch": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "solidity.telemetry": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  /** ------------ Additional Configurations ------------ **/
+  "vscode_custom_css.imports": [
+    "file:///E:/Workspace/Dev/vscode-setting/style.css",
+    "file:///E:/Workspace/Dev/vscode-setting/script.js"
+  ]
+}
