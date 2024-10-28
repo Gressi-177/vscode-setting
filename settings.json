@@ -39,6 +39,9 @@
   "editor.linkedEditing": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
 
   /** ------------ Terminal Configurations ------------ **/
   "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -95,9 +98,17 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off"
   },
+  "files.associations": {
+    "*.scss": "postcss"
+  },
   /** ------------ Additional Configurations ------------ **/
   "vscode_custom_css.imports": [
     "file:///E:/Workspace/Dev/vscode-setting/style.css",
     "file:///E:/Workspace/Dev/vscode-setting/script.js"
-  ]
+  ],
+  "[solidity]": {
+    "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false
 }
